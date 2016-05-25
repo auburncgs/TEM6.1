@@ -524,7 +524,7 @@ int main(int argc, char *argv[])
 
     // Begin simulation of transient climate and terrestrial 
     //   ecosystem response
-    if( 0 == equil )
+    if( 0 == equil ) //added by cgs
     {
         /*//below code is added for uncertainty analysis. cgs2015
         //if (telmnt[0].col == -98.0 && telmnt[0].row== 55.50) //can forest
