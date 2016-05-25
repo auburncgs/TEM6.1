@@ -1,0 +1,130 @@
+<?xml version = "1.0"?>
+
+<siteECD version = "6.0.4" 
+  site = "Bonanza Creek, Fairbanks, Alaska  USA"
+  longitude = "-148.5"
+  latitude = "64.5"
+  developedBy = "David Kicklighter"
+  updated = "20090225">
+
+  <community type = "4"
+    description = "Boreal Forest">
+  
+    <vegca>-47.840</vegca>
+    <vegcb>9031.834</vegcb>
+    <strna>-0.193</strna>
+    <strnb>24.506</strnb>
+    <stona>-0.0150</stona>
+    <stonb>0.738</stonb>
+    <solca>3315.458</solca>
+    <solcb>7522.941</solcb>
+    <solna>111.570</solna>
+    <solnb>253.885</solnb>
+    <doccut>0.467</doccut>
+    <doc1a>1.667</doc1a>
+    <doc1b>1.287</doc1b>
+    <doc2a>0.500</doc2a>
+    <doc2b>1.832</doc2b>
+    <doncut>0.461</doncut>
+    <don1a>0.515</don1a>
+    <don1b>0.385</don1b>    
+    <don2a>0.153</don2a>
+    <don2b>0.552</don2b>    
+    <nh4a>2.611</nh4a>
+    <nh4b>1.675</nh4b>
+    <no3cut>0.455</no3cut>
+    <no31a>0.0207</no31a>
+    <no31b>0.0445</no31b>
+    <no32a>-0.0250</no32a>
+    <no32b>0.0653</no32b>
+
+    <unleaf12>0.5</unleaf12>
+    <initleafmx>1.0</initleafmx>
+
+    <vegcmaxcut>0.55</vegcmaxcut>
+    <vegcmax1a>-1.125</vegcmax1a>
+    <vegcmax1b>800.423</vegcmax1b>
+    <vegcmax2a>-1.125</vegcmax2a>
+    <vegcmax2b>800.423</vegcmax2b>
+    <vegcfall>0.005</vegcfall>
+	<leafcfall>0.04</leafcfall>
+	<stemcfall>0.003</stemcfall>
+	<frootcfall>0.04</frootcfall>
+	<crootcfall>0.004</crootcfall>
+	
+    <vegrmmax>162.7</vegrmmax>
+    <vegrroot>0.350000</vegrroot>
+    
+    <microbekdcut>0.424</microbekdcut>
+    <microbekd1a>-0.212</microbekd1a>
+    <microbekd1b>0.144</microbekd1b>
+    <microbekd2a>-0.0644</microbekd2a>
+    <microbekd2b>0.0814</microbekd2b>
+    <microbepropftos>0.2000</microbepropftos>
+
+    <soilpropReactA>1.226</soilpropReactA>
+    <soilpropReactB>0.2398</soilpropReactB>
+    <soilnonOMpar>0.50</soilnonOMpar>
+    <microbeDOCpar>0.004118182</microbeDOCpar>
+    <soillchDOMpar>1.0</soillchDOMpar>
+    
+    <vegnfixpara>0.00102</vegnfixpara>
+    <vegnfixparb>0.004366667</vegnfixparb>
+    <vegnupnh4cut>0.545</vegnupnh4cut>
+    <vegnupnh41a>-20129.622</vegnupnh41a>
+    <vegnupnh41b>11253.995</vegnupnh41b>
+    <vegnupnh42a>-622.500</vegnupnh42a>
+    <vegnupnh42b>626.825</vegnupnh42b>
+    <vegnupno3cut>0.55</vegnupno3cut>
+    <vegnupno31a>0.000000</vegnupno31a>
+    <vegnupno31b>0.000000</vegnupno31b>
+    <vegnupno32a>0.000000</vegnupno32a>
+    <vegnupno32b>0.000000</vegnupno32b>
+    <vegnfall>0.007937</vegnfall>   
+    <veglcclnc>95.65</veglcclnc>
+    
+    <microbenfixpar>1.000000</microbenfixpar>
+    <microbenh4immcut>0.442</microbenh4immcut>
+    <microbenh4imm1a>-77.275</microbenh4imm1a>
+    <microbenh4imm1b>39.346</microbenh4imm1b>
+    <microbenh4imm2a>-9.621</microbenh4imm2a>
+    <microbenh4imm2b>9.413</microbenh4imm2b>
+    <microbeammnpar>0.000000</microbeammnpar>
+    <microbentrfparcut>0.55</microbentrfparcut>
+    <microbentrfpar1a>0.000000</microbentrfpar1a>
+    <microbentrfpar1b>0.000000</microbentrfpar1b>
+    <microbentrfpar2a>0.000000</microbentrfpar2a>
+    <microbentrfpar2b>0.000000</microbentrfpar2b>
+    <microbeinitntrf>1000000.0</microbeinitntrf>
+    <microbeallntrf>1000000.0</microbeallntrf>
+    <microbetgmpar>0.000000</microbetgmpar>
+
+    <soillchNO3parcut>0.55</soillchNO3parcut>
+    <soillchNO3par1a>0.000000</soillchNO3par1a>
+    <soillchNO3par1b>7.8</soillchNO3par1b>
+    <soillchNO3par2a>0.000000</soillchNO3par2a>
+    <soillchNO3par2b>7.8</soillchNO3par2b>
+    <microbeDONparcut>0.55</microbeDONparcut>
+    <microbeDONpar1a>0.000244</microbeDONpar1a>
+    <microbeDONpar1b>0.302</microbeDONpar1b>
+    <microbeDONpar2a>0.000244</microbeDONpar2a>
+    <microbeDONpar2b>0.302</microbeDONpar2b>
+    
+    <veginitcneven>52.38</veginitcneven>
+    <vegcnmin>0.00000</vegcnmin>
+    <vegc2na>0.00000</vegc2na>
+    <vegc2nb>375.00</vegc2nb>
+    <vegc2nmin>375.00</vegc2nmin>
+    <microbecnsoil>29.73</microbecnsoil>
+
+    <o3para>0.7</o3para>
+    <o3parb>-0.3133</o3parb>
+    <o3parc>0.0261251</o3parc>
+	<factor0>0.91</factor0>
+	<factor1>1.5</factor1>
+	<factor2>5.3</factor2>
+	<factor3>3.0</factor3>	
+	<factor4>6.0</factor4>
+	<factor5>2.4</factor5>
+  </community>
+</siteECD>
