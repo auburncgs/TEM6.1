@@ -7656,7 +7656,7 @@ int TTEM60::stepmonth( const int& pdyr,
 	  if (prevy[i]<0.0) prevy[i]=0.0;
   }
   y[I_SOC]=y[I_SOLC]-y[I_AGR]-y[I_AGL]-y[I_BGR]-y[I_BGL]-y[I_CWD];
-  /*//functions: adapt() was closed by cgs
+  /*//functions: adapt() was closed by cgs to avoid the problem for carbon imbalance
 
   mintflag = adapt( NUMEQ, y, ptol, pdm );
 
@@ -7756,10 +7756,10 @@ int TTEM60::stepmonth( const int& pdyr,
     y[I_STEMC] = ZERO;
     y[I_FROOTC] = ZERO;
     y[I_CROOTC] = ZERO;
-    y[I_AGR]+=0.1 * ag.getSTUBBLEC() * 0.4; //the litter carbon will be added to different pools after harvest. added by cgs2014
-    y[I_AGL]+=0.9 * ag.getSTUBBLEC() * 0.4;
-    y[I_BGR]+=0.1 * ag.getSTUBBLEC() * 0.6;
-    y[I_BGL]+=0.9 * ag.getSTUBBLEC() * 0.6;
+    y[I_AGR]+=0.1 * ag.getSTUBBLEC() * 0.5; //the litter carbon will be added to different pools after harvest. added by cgs2014
+    y[I_AGL]+=0.9 * ag.getSTUBBLEC() * 0.5;
+    y[I_BGR]+=0.1 * ag.getSTUBBLEC() * 0.5;
+    y[I_BGL]+=0.9 * ag.getSTUBBLEC() * 0.5;
 //if (veg.getCURRENTVEG()==50) cout <<" dyr: "<<pdyr<<" mon: "<<pdm<<" gddharvest: "<<GDDHARVST<<" gddcum: "<< ag.getGROWDD()<<endl;
     ag.setGROWDD( ZERO );
 
